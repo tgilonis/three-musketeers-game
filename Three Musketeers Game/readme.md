@@ -34,8 +34,7 @@
     achieve your goals. The results of your work
     after this stage should be stored in the file <code>three_musketeers_with_files.py</code>. New tests are 
     not required for this stage of the project.
-    </p>
-    
+    </p>    
     <h2>About the provided code </h2>
     <p>See the <a href="http://en.wikipedia.org/wiki/Three_Musketeers_%28game%29">Wikipedia
         article</a> for the rules of the game.</p>
