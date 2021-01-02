@@ -67,25 +67,4 @@
             that works better and better and covers more and more test cases.</li>
         </ul>
       </li>
-      <li>In <code>test_three_musketeers.py</code>,
-        <ul>
-          <li> Call the function <code>set_board(new_board)</code> to get a fresh new
-            <code>board</code> before every test. Do that so that the result of one
-            test does not depend on what other tests may have done. (You shoud use
-            at least two initial test board.)</li>
-          <li>The test functions are not complete (some of them are empty). It is your job
-          to fill them in with reasonable tests. In the beginning, just make sure that there
-          is at least one test in each of the test functions. Further, as you develop the project, increase
-          the number of tests. It is your decision which tests and how many to include, but the tests for 
-          each function must reflect the variety of its use cases (including exceptions if we
-          indicated that the function must raise them). I would expect between 5 and 10 tests for each
-          function, depending on how much the function does.</li>
-        </ul>
-      </li>
-    <li> Try not to work on <code>three_musketeers.py</code> and <code>test_three_musketeers.py</code> 
-        in isolation and follow the TDD approach. After improving your code, increase test cases for it, 
-        then improve it further, etc. 
-    </ul>
-    
-    
  </html>
