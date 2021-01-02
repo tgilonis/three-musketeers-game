@@ -10,40 +10,7 @@
     <h1>General idea of the assignment</h1>
     <p>Write a program to play the game of <a href="http://en.wikipedia.org/wiki/Three_Musketeers_%28game%29">Three
         Musketeers</a>--human against computer.</p>
-    <p>You have probably never heard of this game. That's okay, the rules are
-      simple -- that's why we chose it. The link above is to a Wikipedia article
-      that explains the game, and we can answer questions if necessary.</p>
-    <h1>Details</h1>
-    <h2>Get starter files and put them in a GitHub repository</h2>
-    Get the files <code>three_musketeers.py</code> and <code>test_three_musketeers.py</code>
-    to your computer and push them to the repository that you created and set up (see the  
-    guiding docs)<br />
-    <h2>Write few initial tests first</h2>
-    <p> Remember that you should follow the TDD approach in this project. Thus, first insert some initial
-    tests for every (fruitful) function. Simply go through the file <code>test_three_musketeers.py</code>
-    and make sure that there is one test everywhere you see <code># Replace with tests</code>. You will 
-    add more tests at the later stages of the project. </p>
-    <h2>Write initial implementation</h2>
-    <p>
-    Go through the file <code>three_musketeers.py</code> and create initial implementation for each
-    function. Essentially, you need to create a stub for each function, i.e., a return value that makes
-    sense but may be incorrect. (For example, where an integer should be returned, return 0, and where
-    a list should be returned, return [].) 
-    </p>
-    <p> 
-    You should not spend much time on the two stages above. You will provide more detailed tests
-    and correct implementation later. The results of your work here should be
-    committed in your repository by the deadline of Session 7.
-    </p>
-    <h2>Add more tests and function implementations in the TDD loop</h2>
-    <p>
-    Gradually increase the number of tests and improve your implementations. You have time until the
-    project deadline to do that, however, we recommend you to have all the tests and the program 
-    correctly working at most one month before that so that you have sufficient time to work on
-    strategies and extention with files (if you do not want to skip them). The results of your work 
-    should be stored in the file <code>three_musketeers.py</code>
-    and the tests in <code>test_three_musketeers.py</code>. 
-    </p>
+   
     <h2>Extend your program with strategies</h2>
     <p>The computer does <strong>not</strong> have to play a great game--it does have to
       play legally. However, if the computer plays stupidly, it won't be much
@@ -69,32 +36,7 @@
     after this stage should be stored in the file <code>three_musketeers_with_files.py</code>. New tests are 
     not required for this stage of the project.
     </p>
-    <h2>What you are required to do</h2>
-    <p>
-    We understand that you may be short of time during the term to do all of the above. Therefore, we only
-    require that you complete "Get starter files and put them in a GitHub repository", "Write few initial tests first",
-    "Write initial implementation" and "Add more tests and function implementations in the TDD loop"
-    stages of the project. With them you will get up to 70% of the full project mark. Then, you can chose whether
-    to add "Extend your program with strategies" (adds up to 30%) or "Extend your program with files" (adds up to 30%). Extending
-    your program with either of the latter two features in optional (but required if you want to get more than 70% of the
-    maximal project mark). Of course, you are welcome to do both extentions. In that case, we will provide feedback on both of them
-    but will consider only one of them for marking (the one that is better in our opinion). Therefore, it is better to implement
-    one extension very well than two of them weakly.    
-    </p>
-    <h2>How your work will be marked</h2>
-    <p> Firstly, we use the common criteria for marking code:
-    <ul>
-      <li>Readability and Clarity (use comments when your code does something non-trivial)</li>
-      <li>Completeness of the Implementation and Tests (every required function and feature must be implemented)</li>
-      <li>Correctness (everything your implement must return correct and expected results)</li>
-    </ul>
-    In addition, the style of work will be affect your mark, which adds one more criteria:
-    <ul>
-      <li> Consistency of commit history in git (you must start working on the project by the deadline of Session 7
-      and do some commits every week or two; the projects where the first and the last commits are a couple of days
-      before the deadline are unlikely to be given a high mark)</li>
-    </ul>
-    </p>
+    
     <h2>About the provided code </h2>
     <p>See the <a href="http://en.wikipedia.org/wiki/Three_Musketeers_%28game%29">Wikipedia
         article</a> for the rules of the game.</p>
@@ -146,47 +88,6 @@
         in isolation and follow the TDD approach. After improving your code, increase test cases for it, 
         then improve it further, etc. 
     </ul>
-    <h2>Some brief Python reminders </h2>
-    <p>Here are some Python things to remember:</p>
-    <ul>
-      <li>Methods can call other methods. Sometimes this means that a fairly
-        complex job can be accomplished in just a line or two.</li>
-      <li>It's easy to get things in and out of tuples. If <code>location</code>
-        is a two-tuple, all of the following work:
-        <ul>
-          <li><code>(row, column) = location</code></li>
-          <li><code>location = (row, column)</code></li>
-          <li><code>column = location[1]</code></li>
-        </ul>
-      </li>
-      <li>Although you can sometimes leave the parentheses off a tuple, you must
-        have them when calling a function: do_something((3, 4))</li>
-      <li>Sequences of the same type can be "added." For example, <code>[1, 2]
-          + [3, 4]</code> gives <code>[1, 2, 3, 4]</code>.</li>
-      <li><code>append</code> adds an element to a sequence. For example, if <code>a
-          = [1, 2]</code>, <code>a.append(3)</code> changes <code>a</code> to
-        <code>[1, 2, 3]</code>.</li>
-      <li>If <code>b</code> is a list of lists, <code>b[0]</code> is the first
-        list, and <code>b[0][0]</code> is the first element in the first list.
-        For example, if <code>c</code> is <code><nobr>[[1, 2], [3, 4, 5]]</nobr></code>,
-        then <code>c[1][2]</code> is <code>5</code>.</li>
-    </ul>
-    <h2>Code and Documentation </h2>
-    <p> We do not require any documentation from you but you should make sure we understand
-    what your code does. Therefore, use the comments inside your code. Comment on every piece of
-    code that does something not trivial. It is sufficient that you submit the files specified above,
-    however, if you wish, you can supply other (textual) files or overwrite this <code>readme.md</code>
-    file with any description you consider useful.</p>
-    <h2>Submission</h2>
-    <p>You will be working in Git and your last commit before the project submission deadline will
-    be considered as your final submission. If we see that you have commits after the deadline, by default
-    we will mark the last commit you made before the deadline. If you prefer us to mark your work as a late 
-    submission instead (possibly providing mitigating circumstances to avoid the cap on the mark), contact
-    us to tell about that.</p>
-    <p>As with the exercise sheets, for the accountancy reasons, we require that you 
-    "back up" your project files on Moodle via an assignment link provided on the project Moodle page. 
-    If it is not there yet, it will appear in a couple of days. You simply need to upload the final 
-    version of all your files there. You need to do it <strong>only once</strong> when your
-    project is in the final version and before the submittion deadline.</p>
+    
     
  </html>
