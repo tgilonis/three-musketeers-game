@@ -9,8 +9,7 @@
     </ul>
     <h1>General idea of the assignment</h1>
     <p>Write a program to play the game of <a href="http://en.wikipedia.org/wiki/Three_Musketeers_%28game%29">Three
-        Musketeers</a>--human against computer.</p>
-   
+        Musketeers</a>--human against computer.</p>   
     <h2>Extend your program with strategies</h2>
     <p>The computer does <strong>not</strong> have to play a great game--it does have to
       play legally. However, if the computer plays stupidly, it won't be much
